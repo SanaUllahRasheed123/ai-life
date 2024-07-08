@@ -3,7 +3,7 @@ import { FiChevronDown } from "react-icons/fi";
 
 export default function Header() {
   return (
-    <div className=" max-w-[1300px] mx-auto  py-3 bg-[#0e1123] flex items-center justify-between">
+    <div className=" max-w-[1300px] mx-auto  py-3 bg-[#0e1123] md:flex items-center justify-between">
       <div>
         <img src={logo} alt="" />
       </div>
