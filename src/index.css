@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+
+body {
+    background: #0e1123;
+
+}
+    /* background: #0e1123;
+     */
+     /* background: no-b; */
+
+
+/* Basic styling for dropdowns */
+.dropdown-item {
+    position: relative; /* Position relative for dropdowns to work */
+}
+
+.dropdown-menu {
+    display: none; /* Hide dropdown menus by default */
+    position: absolute;
+    top: 100%; /* Position below the parent item */
+    left: 0;
+    z-index: 1000; /* Ensure dropdowns appear above other content */
+    background-color: #333; /* Dropdown background color */
+    padding: 10px 0;
+    min-width: 160px; /* Minimum width of dropdown */
+    list-style-type: none; /* Remove default list styling */
+    border-top: 2px solid transparent; /* Transparent border initially */
+}
+
+/* Show dropdown menu on hover */
+.dropdown-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style for dropdown items */
+.dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-menu li:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .hollow-text {
+    -webkit-text-stroke: 2px #ffe06f;
+    -webkit-text-fill-color: transparent;
+  }
+
+.btn {
+    @apply text-[18px] px-[40px] py-[15px] bg-[#ffe06f] text-[black] rounded-md hover:bg-[#3f3eed] font-[Mulish] font-bold hover:text-white text-2xl scale-105 transition-all duration-300 ;
+} 
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
