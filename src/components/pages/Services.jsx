@@ -175,7 +175,11 @@ export default function Services() {
         </div>
       </div>
 
-      <div></div>
+      <div className="flex items-center justify-between">
+        <button className="btn items-center justify-center mx-auto">
+          View All Cases
+        </button>
+      </div>
     </div>
   );
 }
