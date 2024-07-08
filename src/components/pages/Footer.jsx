@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
             <div className=" font-[Mulish]">
               <h4 className="text-3xl font-bold">Usecases</h4>
-              <ul className="cursor-pointer py-3 text-2xl hover:transition-all hover:ease-in-out hover:duration-300 mt-6 space-y-3  ">
+              <ul className="cursor-pointer py-3 text-xl hover:transition-all hover:ease-in-out hover:duration-300 mt-6 space-y-3  ">
                 <li className="hover:text-yellow-300 hover:translate-x-4 duration-300 transition">
                   -Creative Writing
                 </li>
@@ -35,7 +35,7 @@ export default function Footer() {
 
             <div className=" font-[Mulish]">
               <h4 className="text-3xl font-bold">Usecases</h4>
-              <ul className="cursor-pointer py-3  text-2xl hover:transition-all hover:ease-in-out hover:duration-300 mt-6 space-y-3  ">
+              <ul className="cursor-pointer py-3  text-xl hover:transition-all hover:ease-in-out hover:duration-300 mt-6 space-y-3  ">
                 <li className="hover:text-yellow-300 hover:translate-x-4 duration-300 transition">
                   -Creative Writing
                 </li>
@@ -56,7 +56,7 @@ export default function Footer() {
 
             <div className=" font-[Mulish]">
               <h4 className="text-3xl font-bold">Company </h4>
-              <ul className="cursor-pointer py-3  text-2xl hover:transition-all hover:ease-in-out hover:duration-300 mt-6 space-y-3  ">
+              <ul className="cursor-pointer py-3  text-xl hover:transition-all hover:ease-in-out hover:duration-300 mt-6 space-y-3  ">
                 <li className="hover:text-yellow-300 hover:translate-x-4 duration-300 transition">
                   -About Us
                 </li>
@@ -77,7 +77,7 @@ export default function Footer() {
 
             <div className=" font-[Mulish]">
               <h4 className="text-3xl font-bold">Connect With Us</h4>
-              <ul className="cursor-pointer py-3  text-2xl hover:transition-all hover:ease-in-out hover:duration-300 mt-6 space-y-3  ">
+              <ul className="cursor-pointer py-3  text-xl hover:transition-all hover:ease-in-out hover:duration-300 mt-6 space-y-3  ">
                 <li className="hover:text-yellow-300 hover:translate-x-4 duration-300 transition">
                   -Chat Now
                 </li>
@@ -101,7 +101,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center justify-between text-xl">
             <div>
-              <h3 className="">© 2023. All Rights Reserved.</h3>
+              <h3 className="">© 2024. All Rights Reserved.</h3>
             </div>
             <ul className="flex gap-6 cursor-pointer hover:duration-300 hover:transition-all hover:ease-in-out">
               <li className="hover:text-yellow-300 hover:underline hover:translate-x-4 duration-300 transition">

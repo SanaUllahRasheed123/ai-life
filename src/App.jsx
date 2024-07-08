@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Card from "./components/pages/Card";
 import Footer from "./components/pages/Footer";
+import Services from "./components/pages/Services";
 import TrustedCompanies from "./components/pages/TrustedCompanies";
 import "./index.css";
 
@@ -18,6 +19,7 @@ export default function App() {
       <Banner />
       <Card />
       <TrustedCompanies />
+      <Services />
       <Footer />
     </>
   );
