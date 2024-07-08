@@ -2,7 +2,7 @@ import { ReactTyped } from "react-typed";
 const Banner = () => {
   return (
     <div className="bg-[#0e1123] w-full py-[50px]  text-white">
-      <div className="max-w-[1240px] my-[100px] mx-auto text-center  space-y-2 ">
+      <div className="max-w-[1300px] my-[100px] mx-auto text-center  space-y-2 ">
         <h2 className="text-[30px] md:text-[75px] md:p-[24px] font-bold mb-7">
           Get Quality & 10x Faster Way To{" "}
           <span>
