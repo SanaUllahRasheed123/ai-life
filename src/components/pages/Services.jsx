@@ -1,5 +1,8 @@
 import { FaEdit } from "react-icons/fa";
-import { HiOutlineCurrencyDollar } from "react-icons/hi2";
+import { PiBriefcaseMetal } from "react-icons/pi";
+import { FaCopy } from "react-icons/fa";
+
+import { FaLightbulb } from "react-icons/fa6";
 
 export default function Services() {
   return (
@@ -16,7 +19,7 @@ export default function Services() {
 
       {/* services section */}
 
-      <div className="grid grid-cols-3  text-white gap-10   max-w-[1300px] mx-auto">
+      <div className="grid grid-cols-4  text-white gap-10   max-w-[1300px] mx-auto my-10">
         <div className=" group items-center justify-center h-auto hover:translate-y-3 w-[320px] duration-300 hover:duration-200 bg-[#151a32]  shadow-md rounded-md pt-10 hover:transition-all hover:ease-in  ease-in-out hover:border-double space-y-10 mx-4 hover:bg-yellow-300">
           <div className=" flex items-center justify-center group-hover:text-black">
             <FaEdit className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
@@ -38,11 +41,11 @@ export default function Services() {
 
         <div className=" group items-center justify-center h-auto hover:translate-y-3 w-[320px] duration-300 hover:duration-200 bg-[#151a32]  shadow-md rounded-md pt-10 hover:transition-all hover:ease-in  ease-in-out hover:border-double space-y-10 mx-4 hover:bg-yellow-300">
           <div className=" flex items-center justify-center group-hover:text-black">
-            <FaEdit className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
+            <PiBriefcaseMetal className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
           </div>
 
           <h1 className="text-3xl font-bold text-center group-hover:text-black  ">
-            Blog Writing
+            SEO Meta Title
           </h1>
           <p className="text-center text-2xl text-[#acacd0] group-hover:text-black  justify-center px-4">
             It is a long established <br /> fact that reader will <br /> be
@@ -57,11 +60,108 @@ export default function Services() {
 
         <div className=" group items-center justify-center h-auto hover:translate-y-3 w-[320px] duration-300 hover:duration-200 bg-[#151a32]  shadow-md rounded-md pt-10 hover:transition-all hover:ease-in  ease-in-out hover:border-double space-y-10 mx-4 hover:bg-yellow-300">
           <div className=" flex items-center justify-center group-hover:text-black">
+            <FaCopy className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
+          </div>
+
+          <h1 className="text-3xl font-bold text-center group-hover:text-black  ">
+            Website Copies
+          </h1>
+          <p className="text-center text-2xl text-[#acacd0] group-hover:text-black  justify-center px-4">
+            It is a long established <br /> fact that reader will <br /> be
+            distracted readable <br /> content of a page when.
+          </p>
+          <div className="flex items-center justify-center ">
+            <button className="p-4 px-[20%] bg-black items-center justify-center rounded-t-2xl text-2xl">
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <div className=" group items-center justify-center h-auto hover:translate-y-3 w-[320px] duration-300 hover:duration-200 bg-[#151a32]  shadow-md rounded-md pt-10 hover:transition-all hover:ease-in  ease-in-out hover:border-double space-y-10 mx-4 hover:bg-yellow-300">
+          <div className=" flex items-center justify-center group-hover:text-black">
+            <FaLightbulb className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
+          </div>
+
+          <h1 className="text-3xl font-bold text-center group-hover:text-black  ">
+            Website Copies
+          </h1>
+          <p className="text-center text-2xl text-[#acacd0] group-hover:text-black  justify-center px-4">
+            It is a long established <br /> fact that reader will <br /> be
+            distracted readable <br /> content of a page when.
+          </p>
+          <div className="flex items-center justify-center ">
+            <button className="p-4 px-[20%] bg-black items-center justify-center rounded-t-2xl text-2xl">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-4  text-white gap-10   max-w-[1300px] mx-auto my-10">
+        <div className=" group items-center justify-center h-auto hover:translate-y-3 w-[320px] duration-300 hover:duration-200 bg-[#151a32]  shadow-md rounded-md pt-10 hover:transition-all hover:ease-in  ease-in-out hover:border-double space-y-10 mx-4 hover:bg-yellow-300">
+          <div className=" flex items-center justify-center group-hover:text-black">
             <FaEdit className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
           </div>
 
           <h1 className="text-3xl font-bold text-center group-hover:text-black  ">
-            Blog Writing
+            Social Media & Ads
+          </h1>
+          <p className="text-center text-2xl text-[#acacd0] group-hover:text-black  justify-center px-4">
+            It is a long established <br /> fact that reader will <br /> be
+            distracted readable <br /> content of a page when.
+          </p>
+          <div className="flex items-center justify-center ">
+            <button className="p-4 px-[20%] bg-black items-center justify-center rounded-t-2xl text-2xl">
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <div className=" group items-center justify-center h-auto hover:translate-y-3 w-[320px] duration-300 hover:duration-200 bg-[#151a32]  shadow-md rounded-md pt-10 hover:transition-all hover:ease-in  ease-in-out hover:border-double space-y-10 mx-4 hover:bg-yellow-300">
+          <div className=" flex items-center justify-center group-hover:text-black">
+            <PiBriefcaseMetal className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
+          </div>
+
+          <h1 className="text-3xl font-bold text-center group-hover:text-black  ">
+            SEO Meta Title
+          </h1>
+          <p className="text-center text-2xl text-[#acacd0] group-hover:text-black  justify-center px-4">
+            It is a long established <br /> fact that reader will <br /> be
+            distracted readable <br /> content of a page when.
+          </p>
+          <div className="flex items-center justify-center ">
+            <button className="p-4 px-[20%] bg-black items-center justify-center rounded-t-2xl text-2xl">
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <div className=" group items-center justify-center h-auto hover:translate-y-3 w-[320px] duration-300 hover:duration-200 bg-[#151a32]  shadow-md rounded-md pt-10 hover:transition-all hover:ease-in  ease-in-out hover:border-double space-y-10 mx-4 hover:bg-yellow-300">
+          <div className=" flex items-center justify-center group-hover:text-black">
+            <FaCopy className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
+          </div>
+
+          <h1 className="text-3xl font-bold text-center group-hover:text-black  ">
+            Cover Letter
+          </h1>
+          <p className="text-center text-2xl text-[#acacd0] group-hover:text-black  justify-center px-4">
+            It is a long established <br /> fact that reader will <br /> be
+            distracted readable <br /> content of a page when.
+          </p>
+          <div className="flex items-center justify-center ">
+            <button className="p-4 px-[20%] bg-black items-center justify-center rounded-t-2xl text-2xl">
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <div className=" group items-center justify-center h-auto hover:translate-y-3 w-[320px] duration-300 hover:duration-200 bg-[#151a32]  shadow-md rounded-md pt-10 hover:transition-all hover:ease-in  ease-in-out hover:border-double space-y-10 mx-4 hover:bg-yellow-300">
+          <div className=" flex items-center justify-center group-hover:text-black">
+            <FaLightbulb className="text-5xl items-center justify-center text-yellow-300 group-hover:text-black " />
+          </div>
+
+          <h1 className="text-3xl font-bold text-center group-hover:text-black  ">
+            Brand Name
           </h1>
           <p className="text-center text-2xl text-[#acacd0] group-hover:text-black  justify-center px-4">
             It is a long established <br /> fact that reader will <br /> be
