@@ -21,7 +21,7 @@ export default function App() {
   return (
     <>
       <Swiper
-        spaceBetween={100}
+        spaceBetween={300}
         slidesPerView={3}
         centeredSlides={false}
         autoplay={{
@@ -33,7 +33,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper bg-[#0e1123]"
       >
         <div>
           <SwiperSlide className="">
