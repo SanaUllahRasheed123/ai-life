@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Card from "./components/pages/Card";
+import Content from "./components/pages/Content";
 import Footer from "./components/pages/Footer";
 import Services from "./components/pages/Services";
 import TrustedCompanies from "./components/pages/TrustedCompanies";
@@ -20,6 +21,7 @@ export default function App() {
       <Card />
       <TrustedCompanies />
       <Services />
+      <Content />
       <Footer />
     </>
   );
